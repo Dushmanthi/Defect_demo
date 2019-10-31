@@ -8,15 +8,19 @@ import TransitionsModal from './tasks/addDefects';
 //import { G rid, Row, Col, Table } from "react-bootstrap";
 import DenseTable from './tasks/DefectTable';
 import Transitions from './tasks/defectConfig';
+import Dashboard from './tasks/dashboard';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function App() {
   return (
     <div >
-       <TransitionsModal/>  
+      {/* <TransitionsModal/>  */}
      {/* <MaterialTableDemo/> */} 
 
      {/* <CompanyPrivillege/> */}
-      <DenseTable/>  
-
+     {/* <DenseTable/>  */}
+     <Dashboard/>
     
     </div>
   );
